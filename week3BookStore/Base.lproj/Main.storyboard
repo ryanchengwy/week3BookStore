@@ -224,6 +224,14 @@
                                     <segue destination="rsM-c5-Fy3" kind="embed" id="9nv-kA-7R4"/>
                                 </connections>
                             </containerView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cm3-qA-TFt">
+                                <rect key="frame" x="85" y="72" width="121" height="29"/>
+                                <animations/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -257,6 +265,10 @@
         <scene sceneID="Hq8-9u-fsT">
             <objects>
                 <viewController id="Jb5-cJ-r3b" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UQc-Eu-yL8"/>
+                        <viewControllerLayoutGuide type="bottom" id="kUK-eC-hkK"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Amg-aB-Un8">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
